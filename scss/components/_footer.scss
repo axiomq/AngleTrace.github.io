@@ -1,0 +1,21 @@
+.footer {
+  flex-shrink: 0;
+  background: rgba(7, 13, 66, 0.7);
+  mix-blend-mode: normal;
+  height: 100%;
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    margin: 16px auto;
+    color: $text;
+    font-family: $font-footer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-size-footer;
+    line-height: $font-line-height-footer;
+    text-align: center;
+  }
+}
