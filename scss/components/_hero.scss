@@ -38,7 +38,8 @@
   &__links {
     padding: 0 30px;
     color: $text;
-    margin-bottom: 74px;
+    //margin-bottom: 74px; // margina width phone number
+    margin-bottom: 115px; //margin without phone number
     p{
       margin: 0;
     }
