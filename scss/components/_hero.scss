@@ -51,6 +51,7 @@
         margin-top: 21px;
         @media (max-width:575px) {
           justify-content: center;
+          align-items: center;
           text-align: center;
           flex-direction: column;
           // margin-top: 10px;
@@ -60,7 +61,7 @@
           width: 20px;
           margin-right: 40px;
           @media (max-width:575px) {
-            margin-right: 10px;
+            margin-right: 0px;
             margin-bottom: 5px;
           }
         }
